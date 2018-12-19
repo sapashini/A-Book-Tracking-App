@@ -37,7 +37,7 @@ class BooksApp extends React.Component {
     				/>
           )}
       />
-      <Route exact path={"/search"} // Navigate back to the search page.
+      <Route exact path={"/search"} // Navigate to the search page.
           render={() =>(
               <SearchPage
 					    moveBook={this.moveBook}
