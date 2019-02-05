@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Ashburn-Hotels-Locator/precache-manifest.f08224be9608dfd9c2793461168d7491.js"
+  "/A-Book-Tracking-App/precache-manifest.76ab5f8b9a9ab68d357acf646e12742a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Ashburn-Hotels-Locator/index.html", {
+workbox.routing.registerNavigationRoute("/A-Book-Tracking-App/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
